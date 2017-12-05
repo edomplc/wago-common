@@ -1,6 +1,6 @@
 {
   "name": "wago-common",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "module for communicating with WAGO PLC 750-",
   "main": "wago",
   "files": [
@@ -8,12 +8,9 @@
     "index.js",
     "README.md"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/edom/wago-common.git"
+    "url": "git://github.com/edomplc/wago-common.git"
   },
   "keywords": [
     "wago",
@@ -25,43 +22,12 @@
   },
   "license": "gpl-3.0",
   "bugs": {
-    "url": "https://github.com/edom/wago-common/issues"
+    "url": "https://github.com/edomplc/wago-common/issues"
   },
-  "homepage": "https://github.com/edom/wago-common/#readme",
+  "homepage": "https://github.com/edomplc/wago-common/#readme",
   "dependencies": {
     "adm-zip": "^0.4.7",
     "request": "^2.83.0",
     "xml2js": "^0.4.19"
-  },
-  "devDependencies": {},
-  "standard": {
-    "ignore": [
-      "src/**"
-    ]
-  },
-  "_id": "wago-common@0.1.4",
-  "_shasum": "ea04ff579b1f4e5109f0655c91032b145d59b0e3",
-  "_from": "wago-common@>=0.0.0 <1.0.0",
-  "_npmVersion": "2.15.11",
-  "_nodeVersion": "4.8.3",
-  "_npmUser": {
-    "name": "edom-plc",
-    "email": "e.dom.plc@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "edom-plc",
-      "email": "e.dom.plc@gmail.com"
-    }
-  ],
-  "directories": {},
-  "dist": {
-    "shasum": "ea04ff579b1f4e5109f0655c91032b145d59b0e3",
-    "tarball": "https://registry.npmjs.org/wago-common/-/wago-common-0.1.4.tgz"
-  },
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/wago-common-0.1.4.tgz_1512422452131_0.8304555711802095"
-  },
-  "_resolved": "https://registry.npmjs.org/wago-common/-/wago-common-0.1.4.tgz"
+  }
 }
