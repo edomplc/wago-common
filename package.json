@@ -1,6 +1,6 @@
 {
   "name": "wago-common",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "module for communicating with WAGO PLC 750-",
   "main": "wago",
   "files": [
